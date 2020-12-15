@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#l_public_max {
+  width: 100%;
+  height: 1730px;
+  border: 1px solid purple;
+}
+#l_public_max #y-head {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  border-bottom: 2px solid #ccc;
+}
+#l_public_max #y-head .y_logo {
+  width: 150px;
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  top: 2px;
+  left: 130px;
+}
+#l_public_max #y-head .y_logo img {
+  width: 150px;
+  height: 70px;
+}
+#l_public_max #y-head .h-tb1 {
+  position: absolute;
+  top: 27px;
+  left: 320px;
+  text-align: center;
+}
+#l_public_max #y-head .h-tb1 td {
+  width: 90px;
+  height: 20px;
+  cursor: pointer;
+}
+#l_public_max #y-head .h-tb1 td:nth-of-type(4) {
+  color: orangered;
+}
+#l_public_max #y-head .h-tb1 td:hover {
+  color: orangered;
+}
+#l_public_max #y-head .search {
+  position: absolute;
+  top: 25px;
+  left: 1040px;
+  width: 10px;
+  height: 10px;
+}
+#l_public_max #y-head .denglu {
+  position: absolute;
+  top: 23px;
+  left: 1085px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid orangered;
+  text-align: center;
+  line-height: 30px ;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: orangered ;
+}
+#l_public_max #y-head .zhuce {
+  position: absolute;
+  top: 23px;
+  left: 1165px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid orangered;
+  text-align: center;
+  line-height: 30px ;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: orangered ;
+}
+#l_public_max p:first-of-type {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: 3%;
+}
+#l_public_max #l_public_nav {
+  position: relative;
+  width: 100%;
+  height: 87px;
+  text-align: center;
+}
+#l_public_max #l_public_nav ul {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+}
+#l_public_max #l_public_nav ul li {
+  text-align: center;
+}
+#l_public_max #l_public_nav ul li a {
+  padding: 5px 68px;
+  color: #ccc;
+}
+#l_public_max #l_public_nav ul li a:hover {
+  color: red;
+  border-bottom: 2px solid red ;
+}
+#l_public_max #l_public_nav ul li a:nth-of-type(1) {
+  color: red;
+  border-bottom: 2px solid red ;
+}
+#l_public_max .l_public_line {
+  width: 100%;
+  height: 0px;
+  border-bottom: 1px solid #eee;
+  margin-top: -20px;
+}
+#l_public_max #l_public_navs {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+#l_public_max #l_public_navs ul {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+#l_public_max #l_public_navs ul li {
+  text-align: center;
+}
+#l_public_max #l_public_navs ul li a {
+  padding: 5px 70px;
+  color: #ccc;
+}
+#l_public_max #l_public_navs ul li a:hover {
+  color: black;
+}
+#l_public_max #l_public_navs ul li a:nth-of-type(1) {
+  color: black;
+}
+#l_public_max #l_public_content {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-color: #F7F7F7;
+  border: 1px solid red;
+}
+#l_public_max #l_public_content #l_public_all {
+  margin-top: -10px;
+  width: 100%;
+  height: 1024px;
+}
+#l_public_max #l_public_content #l_public_all ul {
+  position: relative;
+  width: 100%;
+  height: 235px;
+  margin-top: 30px;
+}
+#l_public_max #l_public_content #l_public_all ul li {
+  position: absolute;
+  left: 14%;
+  top: 0;
+  width: 80%;
+  height: 235px;
+  text-align: center;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa {
+  position: relative;
+  float: left;
+  margin: 0 10px;
+  width: 224px;
+  height: 285px;
+  border-radius: 8px;
+  background-color: white;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa img:first-of-type {
+  width: 224px;
+  height: 133px;
+  border-radius: 8px  8px 0 0 ;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa button {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px auto;
+  outline: none;
+  background-color: white;
+  font-size: 12px;
+  color: #ccc;
+  border: 1px solid #ccc;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa button:nth-of-type(2) {
+  padding: 4px;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa p:first-of-type {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa p:nth-of-type(2) {
+  color: #ccc;
+  text-align: center;
+  font-size: 10px;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa span:first-of-type {
+  color: red;
+}
+#l_public_max #l_public_content #l_public_all ul li .l_public_shoufa div:first-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  width: 45px;
+  height: 25px;
+  background-color: #F7543A;
+  color: white;
+  font-size: 10px;
+  border-radius: 0 8px 0 8px;
+}
+#l_public_max #l_public_load {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  margin-top: 30px;
+}
+#l_public_max #l_public_load span {
+  color: red;
+}
+#l_public_max #y-foot {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  background: rgba(80, 80, 80);
+}
+#l_public_max #y-foot .f-code {
+  position: absolute;
+  top: 40px;
+  left: 130px;
+}
+#l_public_max #y-foot .f_logoimg {
+  position: absolute;
+  top: 40px;
+  left: 340px;
+}
+#l_public_max #y-foot .span1 {
+  position: absolute;
+  top: 115px;
+  left: 340px;
+  width: 150px;
+  height: 55px;
+  font-size: 14px ;
+  color: rgba(148, 150, 145);
+}
+#l_public_max #y-foot .span2 {
+  position: absolute;
+  top: 180px;
+  left: 340px;
+  width: 164px;
+  height: 55px;
+  font-size: 14px ;
+  color: rgba(148, 150, 145);
+}
+#l_public_max #y-foot .tb1 {
+  position: absolute;
+  top: 40px;
+  left: 520px;
+  color: white;
+}
+#l_public_max #y-foot .tb1 td {
+  padding: 0 60px;
+}
+#l_public_max #y-foot .tb1 td:first-of-type {
+  padding: 0 20px;
+}
+#l_public_max #y-foot .shiyong {
+  position: absolute;
+  top: 90px;
+  left: 540px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .lj1 {
+  position: absolute;
+  top: 90px;
+  left: 685px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .lj2 {
+  position: absolute;
+  top: 90px;
+  left: 760px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .gonglue {
+  position: absolute;
+  top: 90px;
+  left: 870px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .hezuo {
+  position: absolute;
+  top: 90px;
+  left: 1055px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .b_span {
+  position: absolute;
+  bottom: 15px;
+  left: 560px;
+  width: 200px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: rgba(148, 150, 145);
+}
