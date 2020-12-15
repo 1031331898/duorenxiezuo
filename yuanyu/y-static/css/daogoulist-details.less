@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@color:rgba(148,150,145);
+@width: 100%;
+.border(@borderc:red){
+    border: 1px solid @borderc;
+}
+
+#l_daogou_max{
+    width: @width;
+    height: 5266px; 
+    .border(purple);
+    #y-head{
+        position: relative;
+        width: 100%;
+        height: 75px;
+        .y_logo{
+            width: 150px;
+            height: 70px;
+            line-height: 70px;
+            position: absolute;
+            top: 2px;
+            left: 130px;
+            img{
+                width: 150px;
+                height: 70px;
+            }
+        }
+        .h-tb1{
+            position: absolute;
+            top: 27px;
+            left: 320px;
+            text-align: center;
+            td{
+                width: 90px;
+                height: 20px;
+                cursor: pointer;
+            }
+            td:nth-of-type(3){
+                color: orangered;
+            }
+            td:hover{
+                color: orangered;
+            }
+        }
+        .search{
+            position: absolute;
+            top: 25px;
+            left: 1040px;
+            width: 10px;
+            height: 10px;
+        }
+        .denglu{
+            position: absolute;
+            top: 23px;
+            left: 1085px;
+            width: 50px;
+            height: 30px;
+            border: 1px solid orangered;
+            text-align: center;
+            line-height:30px ;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            color:orangered ;
+        }
+        .zhuce{
+            position: absolute;
+            top: 23px;
+            left: 1165px;
+            width: 50px;
+            height: 30px;
+            border: 1px solid orangered;
+            text-align: center;
+            line-height:30px ;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            color:orangered ;
+        }
+    }
+    #l_daogou_content{
+        position: relative;
+        width: @width;
+        height: 4792px;
+        background-color: #F7F7F7;
+        .border(green);
+        .l_daogou_nav{
+            color: #ccc;
+            font-size: 10px;
+            // padding-left:323px;
+            margin: 10px 200px;
+        }
+        .l_daogou_details{
+            position: relative;
+            width: 700px;
+            height: 4720px;
+            margin: 0 200px;
+            background-color: white;
+            p:first-of-type{
+                font-size: 20px;
+                padding-left: 20px;
+                padding-top:20px;
+            }
+            .l_daogou_susu{
+                margin-left: 20px;
+                margin-top: 10px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+            div:nth-of-type(2){
+                position: absolute;
+                top: 65px;
+                left: 50px;
+                color: #ccc;
+                font-size: 10px;
+                margin-top: -5px;
+            }
+            div:nth-of-type(3){
+                position: absolute;
+                top: 65px;
+                right: 30px;
+                color: #ccc;
+                font-size: 10px;
+                margin-top: -5px;
+            }
+            div:nth-of-type(4), div:nth-of-type(16), div:nth-of-type(20), div:nth-of-type(22),div:nth-of-type(24){
+                width: 650px;
+                font-size: 14px;
+                margin: 20px auto;
+            }
+            h4{
+                margin-top: 20px;
+                text-align: center;
+            }
+            div:nth-of-type(5), div:nth-of-type(7), div:nth-of-type(9),div:nth-of-type(11), div:nth-of-type(13),div:nth-of-type(15),div:nth-of-type(17),div:nth-of-type(19), div:nth-of-type(21){
+                width: 650px;
+                font-size: 14px;
+                margin: 0px auto;
+            }
+            div:nth-of-type(6), div:nth-of-type(8),div:nth-of-type(10),div:nth-of-type(12),div:nth-of-type(14), div:nth-of-type(18), div:nth-of-type(23){
+                width: 650px;
+                margin: 20px auto;
+            }
+            div:nth-of-type(25){
+               margin-top: 50px;
+               margin-left: 25px;
+            }
+            div:nth-of-type(26){
+                margin: 0 auto;
+            }
+            div:nth-of-type(25),div:nth-of-type(26){
+                width: 650px;
+                color: #ccc;
+                font-size: 10px;
+            }
+            div:nth-of-type(25):hover,div:nth-of-type(26):hover{
+                cursor: pointer;
+                color: orangered;
+            }
+        
+        }
+        .l_daogou_share{
+            position: absolute;
+            top: 35px;
+            right: 160px;
+            width:200px;
+            height: 80px;
+            background-color: white;
+            div:nth-of-type(1){
+                float: left;
+                width: 100px;
+                height: 80px;
+                border-right: 1px solid #eee;
+                text-align: center;
+                font-size: 10px;
+                color: #ccc;
+                line-height: 80px;
+                cursor: pointer;
+                img{
+                    position: absolute;
+                    top: 20px;
+                    left: 35px;
+                }
+                img:last-of-type{
+                    display: none;
+                }
+                p{
+                    position: absolute;
+                    top: 20px;
+                    left: 30px;
+                }
+            }
+            div:nth-of-type(2){
+                float: left;
+                width: 100px;
+                height: 80px;
+                text-align: center;
+                font-size: 10px;
+                color: #ccc;
+                line-height: 80px;
+                cursor: pointer;
+               .bshare-custom{
+                   display: none;
+               }
+                p{
+                    position: absolute;
+                    top: 20px;
+                    right: 36px;
+                }
+            }
+
+        }
+
+    }
+    .active{
+        color: red;
+    }
+    #y-foot {
+        position: relative;
+        width: 100%;
+        height: 360px;
+        background: rgba(80, 80, 80);
+        .f-code{
+            position:absolute;
+            top: 40px;
+            left: 130px;
+        }
+        .f_logoimg{
+            position: absolute;
+            top: 40px;
+            left: 340px;
+        }
+        .span1{
+            position: absolute;
+            top: 115px;
+            left: 340px;
+            width: 150px;
+            height: 55px;
+            font-size:14px ;
+            color: @color;
+        }
+        .span2{
+            position: absolute;
+            top: 180px;
+            left: 340px;
+            width: 164px;
+            height: 55px; 
+            font-size:14px ;
+            color:@color;
+        }
+        .tb1{
+            position: absolute;
+            top: 40px;
+            left: 520px;
+            color: white;
+            td{
+                padding:0 60px;
+            }
+            td:first-of-type{
+                padding: 0 20px;
+            }
+        }
+        .shiyong{
+            position: absolute;
+            top: 90px;
+            left: 540px;
+            color: @color;
+            font-size: 14px;
+        }
+        .lj1{
+            position: absolute;
+            top: 90px;
+            left: 685px;
+            color: @color;
+            font-size: 14px;
+        }
+        .lj2{
+            position: absolute;
+            top: 90px;
+            left: 760px;
+            color: @color;
+            font-size: 14px;
+        }
+        .gonglue{
+            position: absolute;
+            top: 90px;
+            left: 870px;
+            color: @color;
+            font-size: 14px;
+        }
+        .hezuo{
+            position: absolute;
+            top: 90px;
+            left: 1055px;
+            color: @color;
+            font-size: 14px;
+        }
+        .b_span{
+            position: absolute;
+            bottom: 15px;
+            left: 560px;
+            width: 200px;
+            height: 15px;
+            text-align: center;
+            line-height: 15px;
+            color: @color;
+        }
+    }
+
+
+
+}

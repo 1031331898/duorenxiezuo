@@ -1,0 +1,612 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+@keyframes hifi {
+  0% {
+    opacity: 0;
+    top: -200px;
+    left: 1200px;
+  }
+  100% {
+    opacity: 1;
+    top: 30px;
+    left: 900px;
+  }
+}
+#l_public_max {
+  width: 100%;
+  height: 3372px;
+  border: 1px solid purple;
+}
+#l_public_max #y-head {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  border-bottom: 2px solid #ccc;
+}
+#l_public_max #y-head .y_logo {
+  width: 150px;
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  top: 2px;
+  left: 130px;
+}
+#l_public_max #y-head .y_logo img {
+  width: 150px;
+  height: 70px;
+}
+#l_public_max #y-head .h-tb1 {
+  position: absolute;
+  top: 27px;
+  left: 320px;
+  text-align: center;
+}
+#l_public_max #y-head .h-tb1 td {
+  width: 90px;
+  height: 20px;
+  cursor: pointer;
+}
+#l_public_max #y-head .h-tb1 td:nth-of-type(4) {
+  color: orangered;
+}
+#l_public_max #y-head .h-tb1 td:hover {
+  color: orangered;
+}
+#l_public_max #y-head .search {
+  position: absolute;
+  top: 25px;
+  left: 1040px;
+  width: 10px;
+  height: 10px;
+}
+#l_public_max #y-head .denglu {
+  position: absolute;
+  top: 23px;
+  left: 1085px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid orangered;
+  text-align: center;
+  line-height: 30px ;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: orangered ;
+}
+#l_public_max #y-head .zhuce {
+  position: absolute;
+  top: 23px;
+  left: 1165px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid orangered;
+  text-align: center;
+  line-height: 30px ;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: orangered ;
+}
+#l_public_max #l_public_top {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: url(../images/s_img/original.jpg);
+  background-position: -265px;
+}
+#l_public_max #l_public_top .HIFI {
+  position: absolute;
+  top: 30px;
+  left: 900px;
+  width: 340px;
+  height: 240px;
+  animation: hifi 1s  linear  1;
+}
+#l_public_max #l_public_top .HIFI table {
+  position: absolute;
+  top: 60px;
+  right: 5px;
+  color: white;
+}
+#l_public_max #l_public_top .HIFI table td {
+  margin-left: 15px ;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
+#l_public_max #l_public_top .HIFI span:first-of-type {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  color: white;
+  font-size: 30px;
+}
+#l_public_max #l_public_top .HIFI span:last-of-type {
+  position: absolute;
+  top: 120px;
+  right: 0px;
+  color: white;
+  font-size: 15px;
+}
+#l_public_max #l_public_top .HIFI .button {
+  position: absolute;
+  top: 160px;
+  right: 0px;
+  width: 240px;
+  height: 50px;
+  font-size: 1.5em;
+  color: white;
+  background: rgba(254, 83, 65);
+  line-height: 50px ;
+  text-align: center;
+  border-radius: 5px ;
+  cursor: pointer;
+}
+#l_public_max #l_public_nav {
+  position: relative;
+  width: 100%;
+  height: 105px;
+  background-color: #F0F0F0;
+}
+#l_public_max #l_public_nav .l_public_empty {
+  position: absolute;
+  top: 20px;
+  left: 131px;
+  width: 5px;
+  height: 65px;
+  background-color: orangered;
+}
+#l_public_max #l_public_nav div:nth-of-type(2) {
+  position: absolute;
+  top: 27px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+#l_public_max #l_public_nav ul {
+  position: absolute;
+  top: 25px;
+  left: 250px;
+  width: 970px;
+  height: 70px;
+}
+#l_public_max #l_public_nav ul li {
+  float: left;
+  margin: 0 64px;
+}
+#l_public_max #l_public_nav ul li p {
+  position: relative;
+  left: -5px;
+  top: 0;
+  font-size: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+#l_public_max #l_public_content {
+  width: 1100px;
+  height: 2140px;
+  margin: 0 auto;
+}
+#l_public_max #l_public_content .l_public_Lcontent {
+  position: relative;
+  float: left;
+  width: 743px;
+  height: 2140px;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:first-of-type div:nth-of-type(1) {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  width: 5px;
+  height: 25px;
+  background-color: orangered;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(3) {
+  width: 100%;
+  height: 30px;
+  margin-top: 70px;
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(4) {
+  margin: 20px auto;
+}
+#l_public_max #l_public_content .l_public_Lcontent h4 {
+  color: #2A8DDE;
+  margin: 20px auto;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(8) {
+  margin: 20px auto;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(12) div:nth-of-type(1) {
+  position: absolute;
+  top: 1570px;
+  left: 5px;
+  width: 5px;
+  height: 25px;
+  background-color: orangered;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(12) span {
+  position: absolute;
+  top: 1570px;
+  left: 25px;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(14) {
+  margin-top: 70px;
+}
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(15) h4,
+#l_public_max #l_public_content .l_public_Lcontent div:nth-of-type(16) h4 {
+  display: inline-block;
+  color: black;
+  margin: 0 auto;
+}
+#l_public_max #l_public_content .l_public_Lcontent span:first-of-type {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+#l_public_max #l_public_content .l_public_Rcontent {
+  position: relative;
+  float: right;
+  width: 335px;
+  height: 957px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:first-of-type div:nth-of-type(1) {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  width: 5px;
+  height: 25px;
+  background-color: orangered;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:first-of-type span:first-of-type {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(3) {
+  font-size: 50px;
+  color: rgba(254, 83, 65);
+  margin-top: 70px;
+}
+#l_public_max #l_public_content .l_public_Rcontent button {
+  width: 95%;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 8px;
+  background-color: rgba(254, 83, 65);
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(4) {
+  color: gray;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(5) div:nth-of-type(1) {
+  position: absolute;
+  top: 250px;
+  left: 5px;
+  width: 5px;
+  height: 25px;
+  background-color: orangered;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(5) span:nth-of-type(1) {
+  position: absolute;
+  top: 250px;
+  left: 25px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(7) {
+  width: 95%;
+  margin-top: 60px;
+  margin-left: 8px;
+  text-align: center;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(7) img {
+  width: 100%;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(8),
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(9),
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(10) {
+  width: 95%;
+  margin-left: 8px;
+  color: #ccc;
+  font-size: 10px;
+}
+#l_public_max #l_public_content .l_public_Rcontent h4 {
+  margin: 8px 10px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(11) div:nth-of-type(1) {
+  position: absolute;
+  top: 750px;
+  left: 5px;
+  width: 5px;
+  height: 25px;
+  background-color: orangered;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(11) span:first-of-type {
+  position: absolute;
+  top: 750px;
+  left: 25px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(12) {
+  width: 100%;
+  height: 180px;
+  margin-top: 110px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(12) div:first-of-type {
+  float: left;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(12) div:first-of-type img {
+  width: 150px;
+  height: 150px;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(12) div:nth-of-type(2) {
+  display: table;
+  width: 170px;
+  height: 150px;
+  background-color: #EBEBEB;
+  float: left;
+  text-align: center;
+}
+#l_public_max #l_public_content .l_public_Rcontent div:nth-of-type(12) div:nth-of-type(2) span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ccc;
+}
+#l_public_max #l_public_remen {
+  width: 1100px;
+  height: 390px;
+  margin: 0 auto;
+}
+#l_public_max #l_public_remen .l_remen {
+  float: left;
+  margin: 10px 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+#l_public_max #l_public_remen .l_sanxian {
+  float: right;
+  margin-top: 10px;
+  color: red;
+  cursor: pointer;
+}
+#l_public_max #l_public_remen ul {
+  position: relative;
+  width: 100%;
+  height: 235px;
+  margin-top: 30px;
+}
+#l_public_max #l_public_remen ul li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 235px;
+  text-align: center;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1,
+#l_public_max #l_public_remen ul li .l_public_shoufa2,
+#l_public_max #l_public_remen ul li .l_public_shoufa3,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 {
+  position: relative;
+  float: left;
+  margin: 20px 25px;
+  width: 224px;
+  height: 285px;
+  border-radius: 8px;
+  background-color: white;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 img:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa2 img:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa3 img:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 img:first-of-type {
+  width: 224px;
+  height: 133px;
+  border-radius: 8px  8px 0 0 ;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 button,
+#l_public_max #l_public_remen ul li .l_public_shoufa2 button,
+#l_public_max #l_public_remen ul li .l_public_shoufa3 button,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 button {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px auto;
+  outline: none;
+  background-color: white;
+  font-size: 12px;
+  color: red;
+  border: 1px solid red;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 button:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa2 button:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa3 button:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 button:first-of-type {
+  padding: 5px;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 button:last-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa2 button:last-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa3 button:last-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 button:last-of-type {
+  padding: 4px;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 p:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa2 p:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa3 p:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 p:first-of-type {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 p:nth-of-type(2),
+#l_public_max #l_public_remen ul li .l_public_shoufa2 p:nth-of-type(2),
+#l_public_max #l_public_remen ul li .l_public_shoufa3 p:nth-of-type(2),
+#l_public_max #l_public_remen ul li .l_public_shoufa4 p:nth-of-type(2) {
+  color: red;
+  text-align: center;
+  font-size: 10px;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 span:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa2 span:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa3 span:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 span:first-of-type {
+  color: red;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa1 div:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa2 div:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa3 div:first-of-type,
+#l_public_max #l_public_remen ul li .l_public_shoufa4 div:first-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  width: 45px;
+  height: 25px;
+  background-color: #F7543A;
+  color: white;
+  font-size: 10px;
+  border-radius: 0 8px 0 8px;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa2 button {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px auto;
+  outline: none;
+  background-color: white;
+  font-size: 12px;
+  color: green;
+  border: 1px solid green;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa2 p:nth-of-type(2) {
+  color: green;
+  text-align: center;
+  font-size: 10px;
+}
+#l_public_max #l_public_remen ul li .l_public_shoufa2 div:first-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  width: 70px;
+  height: 25px;
+  background-color: #F4F9D3;
+  color: #C9B478;
+  font-size: 10px;
+  border-radius: 0 8px 0 8px;
+}
+#l_public_max #y-foot {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  background: rgba(80, 80, 80);
+}
+#l_public_max #y-foot .f-code {
+  position: absolute;
+  top: 40px;
+  left: 130px;
+}
+#l_public_max #y-foot .f_logoimg {
+  position: absolute;
+  top: 40px;
+  left: 340px;
+}
+#l_public_max #y-foot .span1 {
+  position: absolute;
+  top: 115px;
+  left: 340px;
+  width: 150px;
+  height: 55px;
+  font-size: 14px ;
+  color: rgba(148, 150, 145);
+}
+#l_public_max #y-foot .span2 {
+  position: absolute;
+  top: 180px;
+  left: 340px;
+  width: 164px;
+  height: 55px;
+  font-size: 14px ;
+  color: rgba(148, 150, 145);
+}
+#l_public_max #y-foot .tb1 {
+  position: absolute;
+  top: 40px;
+  left: 520px;
+  color: white;
+}
+#l_public_max #y-foot .tb1 td {
+  padding: 0 60px;
+}
+#l_public_max #y-foot .tb1 td:first-of-type {
+  padding: 0 20px;
+}
+#l_public_max #y-foot .shiyong {
+  position: absolute;
+  top: 90px;
+  left: 540px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .lj1 {
+  position: absolute;
+  top: 90px;
+  left: 685px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .lj2 {
+  position: absolute;
+  top: 90px;
+  left: 760px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .gonglue {
+  position: absolute;
+  top: 90px;
+  left: 870px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .hezuo {
+  position: absolute;
+  top: 90px;
+  left: 1055px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#l_public_max #y-foot .b_span {
+  position: absolute;
+  bottom: 15px;
+  left: 560px;
+  width: 200px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: rgba(148, 150, 145);
+}
