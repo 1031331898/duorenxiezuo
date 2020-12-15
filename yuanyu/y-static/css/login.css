@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+#y-head {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  border-bottom: 2px solid #ccc;
+}
+#y-head .y_logo {
+  width: 150px;
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  top: 2px;
+  left: 130px;
+}
+#y-head .y_logo img {
+  width: 150px;
+  height: 70px;
+}
+#y-head .h-tb1 {
+  position: absolute;
+  top: 27px;
+  left: 320px;
+  text-align: center;
+}
+#y-head .h-tb1 td {
+  width: 90px;
+  height: 20px;
+  cursor: pointer;
+}
+#y-head .h-tb1 td:hover {
+  color: orangered;
+}
+#y-head .search {
+  position: absolute;
+  top: 25px;
+  left: 1040px;
+  width: 10px;
+  height: 10px;
+}
+#y-head .denglu {
+  position: absolute;
+  top: 23px;
+  left: 1085px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid orangered;
+  text-align: center;
+  line-height: 30px ;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: orangered ;
+}
+#y-head .zhuce {
+  position: absolute;
+  top: 23px;
+  left: 1165px;
+  width: 50px;
+  height: 30px;
+  border: 1px solid orangered;
+  text-align: center;
+  line-height: 30px ;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: orangered ;
+}
+/*  */
+.body {
+  position: relative;
+  width: 1000px;
+  height: 780px;
+  border: 1px solid #c4c0c0;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+.body > table {
+  margin: 100px auto 0;
+}
+.body > table tr td input {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #d0cccc;
+  border-radius: 10px;
+  font-size: 1em;
+  margin-top: 30px;
+  padding: 0px 10px;
+  outline: none;
+}
+.body > table tr td > .hqyzm {
+  width: 120px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  line-height: 50px ;
+  text-align: center;
+  margin-left: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.body .ljzc {
+  position: absolute;
+  bottom: 90px;
+  left: 290px;
+  width: 400px;
+  height: 50px;
+  padding: 0px 10px;
+  background: red;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body .zcjg {
+  position: absolute;
+  top: 10px;
+  width: 110px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-left: 3px solid red ;
+}
+/*  */
+#y-foot {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  background: rgba(80, 80, 80);
+}
+#y-foot .f-code {
+  position: absolute;
+  top: 40px;
+  left: 130px;
+}
+#y-foot .f_logoimg {
+  position: absolute;
+  top: 40px;
+  left: 340px;
+}
+#y-foot .span1 {
+  position: absolute;
+  top: 115px;
+  left: 340px;
+  width: 150px;
+  height: 55px;
+  font-size: 14px ;
+  color: rgba(148, 150, 145);
+}
+#y-foot .span2 {
+  position: absolute;
+  top: 180px;
+  left: 340px;
+  width: 164px;
+  height: 55px;
+  font-size: 14px ;
+  color: rgba(148, 150, 145);
+}
+#y-foot .tb1 {
+  position: absolute;
+  top: 40px;
+  left: 520px;
+  color: white;
+}
+#y-foot .tb1 td {
+  padding: 0 60px;
+}
+#y-foot .tb1 td:first-of-type {
+  padding: 0 20px;
+}
+#y-foot .shiyong {
+  position: absolute;
+  top: 90px;
+  left: 540px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#y-foot .lj1 {
+  position: absolute;
+  top: 90px;
+  left: 685px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#y-foot .lj2 {
+  position: absolute;
+  top: 90px;
+  left: 760px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#y-foot .gonglue {
+  position: absolute;
+  top: 90px;
+  left: 870px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#y-foot .hezuo {
+  position: absolute;
+  top: 90px;
+  left: 1055px;
+  color: rgba(148, 150, 145);
+  font-size: 14px;
+}
+#y-foot .b_span {
+  position: absolute;
+  bottom: 15px;
+  left: 560px;
+  width: 200px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: rgba(148, 150, 145);
+}
