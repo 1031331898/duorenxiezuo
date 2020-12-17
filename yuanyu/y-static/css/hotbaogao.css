@@ -115,7 +115,7 @@ h1 {
   position: relative;
   width: 700px;
   height: 415px;
-  background: url(../images/b_img/bg4.jpg) no-repeat;
+  margin-bottom: 20px;
 }
 .y-body .body-left .y-content .y-pinglun {
   display: none;
@@ -230,6 +230,29 @@ h1 {
   display: table-cell;
   vertical-align: middle;
   color: #aaa;
+}
+/*  */
+#l_daogou_load {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+#l_daogou_load > div:first-of-type {
+  display: block;
+}
+#l_daogou_load span {
+  color: red;
+}
+#l_daogou_load .y-loding {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-left: 94px;
+  margin-top: 0px;
+  display: none;
 }
 /*  */
 #y-foot {

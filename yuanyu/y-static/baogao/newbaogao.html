@@ -112,6 +112,11 @@
         </div>
 
     </div>
+    <div style="clear: both;"></div>
+    <div id="l_daogou_load">
+        <div><img src="../images/s_img/more.png" /> <span>点击加载更多</span></div>
+        <div class="y-loding"><img src="../images/s_img/loading-icon.gif" alt=""></div>
+    </div>
     <!--  -->
     <div style="clear: both;"></div>
     <div id="y-foot">
@@ -183,6 +188,20 @@
     })
     zan.dblclick(function() {
         zan.next("span").text("3")
+    })
+</script>
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/template-web.js"></script>
+
+<script>
+    $("#l_daogou_load").click(function() {
+        $(this).children("div").eq(0).hide();
+        $(".y-loding").show();
+        setTimeout(function() {
+            $("#l_daogou_load").children("div").eq(0).show();
+            $(".y-loding").hide();
+        }, 2000)
     })
 </script>
 

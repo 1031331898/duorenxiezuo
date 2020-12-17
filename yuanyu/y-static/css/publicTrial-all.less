@@ -164,37 +164,16 @@ a{
     #l_public_content{
         position: relative;
         width: @width;
-        height: 1000px;
         background-color: #F7F7F7;
-        .border(red);
-        // #l_found_new{
-        //     float: left;
-        // }
-        // #l_found_hot{
-        //     float: left;
-        // } }
         #l_public_all{
             margin-top: -10px;
-            width: @width;
-            height: 1024px;
-            // .border(blue);
-            ul{
-                position: relative;
-                width: @width;
-                height: 235px;
-                margin-top: 30px;
-                
-                li{
-                    position: absolute;
-                    left: 14%;
-                    top: 0;
-                    width: 80%;
-                    height: 235px;
-                    text-align: center;
+            width: 1000px;
+            margin: 20px auto;
+           
                     .l_public_shoufa{
                         position: relative;
                         float: left;
-                        margin: 0 10px;
+                        margin: 0 10px 20px ;
                         width: 224px;
                         height: 285px;
                         border-radius: 8px;
@@ -205,22 +184,35 @@ a{
                             border-radius:  8px  8px 0 0 ;
                         }
                         
-                        button{
+                        button:first-of-type{
+                            position: absolute;
+                            top:195px;
+                            left:70px;
                             border-radius: 5px;
                             text-align: center;
                             padding: 5px;
-                            margin: 10px auto;
                             outline: none;
                             background-color: white;
                             font-size: 12px;
                             color: #ccc;
                             .border(#ccc);
                         }
+
                         button:nth-of-type(2){
-                            padding: 4px;
+                            position: absolute;
+                            top:194px;
+                            left: 110px;
+                            border-radius: 5px;
+                            text-align: center;
+                            padding: 5px;
+                            outline: none;
+                            background-color: white;
+                            font-size: 12px;
+                            color: #ccc;
+                            .border(#ccc);
                         }
                         p:first-of-type{
-                            font-size: 16px;
+                            font-size: 14px;
                             text-align:center;
                             font-weight: bold;
                             
@@ -229,17 +221,31 @@ a{
                             color: #ccc;
                             text-align:center;
                             font-size: 10px;
+                            position: absolute;
+                            top: 245px;
+                            left: 78px;
                         }
                         span:first-of-type{
                             color: red;
+                            position: absolute;
+                            top: 222px;
+                            left: 70px;
+                        }
+                        span:last-of-type{
+                            position: absolute;
+                            top: 222px;
+                            left: 112px;
+
                         }
                        div:first-of-type{
                            position: absolute;
                            top: 0;
                            right: 0;
-                           padding: 5px;
-                           width: 45px;
+                            width: 45px;
+                            padding: 0 5px;
                            height: 25px;
+                           text-align: center;
+                           line-height: 25px;
                            background-color: #F7543A;
                            color: white;
                            font-size: 10px;
@@ -247,22 +253,35 @@ a{
                        }
                     }
                 }
-            }
-        }
+        //     }
+        // }
       
 
     }
-    #l_public_load{
-        width: @width;
-        height: 90px;
+    #l_found_load{
+        width: 200px;
+        height: 30px;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
+        margin-left: 555px;
+        cursor: pointer;
         // .border(blue);
+        >div:first-of-type{
+            display: block;
+        }
         span{
             color: red;
         }
-       
+        .y-loding{
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            margin-left: 94px;
+            margin-top: 0px;
+            display: none;
+        }
     }
+    
     #y-foot {
         position: relative;
         width: 100%;

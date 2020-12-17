@@ -35,7 +35,7 @@
     </table>
     <div class="y-body">
         <div class="body-left">
-            <div class="y-content">
+            <div class="y-content" style="background:url(../images/b_img/bg5.jpg) no-repeat;">
                 <div class="y-pinglun">
                     <div>空气净化器里面学问多得惊呆你，你选对了吗？</div>
                     <div><span style="color: red;">苏苏</span>&ensp;2016-01-25</div>
@@ -104,6 +104,13 @@
             </div>
         </div>
 
+    </div>
+
+
+    <div style="clear: both;"></div>
+    <div id="l_daogou_load">
+        <div><img src="../images/s_img/more.png" /> <span>点击加载更多</span></div>
+        <div class="y-loding"><img src="../images/s_img/loading-icon.gif" alt=""></div>
     </div>
     <!--  -->
     <div style="clear: both;"></div>
@@ -177,6 +184,15 @@
     })
     zan.dblclick(function() {
         zan.next("span").text("3")
+    });
+
+    $("#l_daogou_load").click(function() {
+        $(this).children("div").eq(0).hide();
+        $(".y-loding").show();
+        setTimeout(function() {
+            $("#l_daogou_load").children("div").eq(0).show();
+            $(".y-loding").hide();
+        }, 2000)
     })
 </script>
 

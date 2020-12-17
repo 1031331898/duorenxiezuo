@@ -6,23 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/login2.css">
+    <link rel="stylesheet" href="./css/pulicklogin.css">
 </head>
 
 <body>
+    <div id="y-head">
+        <div class="y_logo"><img src="./images/b_img/logonew.png" alt=""></div>
+        <table class="h-tb1">
+            <tr>
+                <td>首页</td>
+                <td>酷玩</td>
+                <td>导航</td>
+                <td>试用</td>
+                <td>报告</td>
+            </tr>
+        </table>
+        <div class="search"><img src="./images/s_img/search.png" alt=""></div>
+        <div class="denglu">登录</div>
+        <div class="zhuce">注册</div>
+    </div>
+
+
+
+    <!--  -->
+
+    <!--  -->
+    <!--  -->
     <div class="shadow"></div>
+
     <div id="login-page">
         <div class="zhdl">极果账号登录</div>
-        <input type="text" class="username" placeholder="手机号">
-        <input type="password" class="pswd" placeholder="密码">
+        <input type="text" class="username" placeholder="手机号" name="phone" id="num">
+        <input type="password" class="pswd" placeholder="密码" name="pawd" id="pass">
         <div class="xiaci">
             <input type="checkbox">下次自动登陆
         </div>
-        <button>登录</button>
-        <div class="newhao">注册新账号</div>
+        <button type="button">登录</button>
+        <div class="newhao"><a href="./login.html">注册新账号</a></div>
         <div class="phone"><img src="./images/s_img/phone.png" alt=""></div>
         <div class="suo"><img src="./images/s_img/pswd.png" alt=""></div>
-        <div class="forget">忘记密码？</div>
-
+        <div class="forget">
+            <a href="./login.html">忘记密码？</a>
+        </div>
         <div class="right">
             <div class="shejiao">社交网络账号登陆</div>
             <div class="wcode"><img src="./images/s_img/wechat.png" alt=""></div>
@@ -31,6 +56,125 @@
             <div class="esc">&times;</div>
         </div>
     </div>
+
+
+    <!--  -->
+    <div style="clear: both;"></div>
+    <div id="y-foot">
+        <div class="f-code"><img src="./images/b_img/code.png" alt=""></div>
+        <div class="f_logoimg"><img src="./images/b_img/logoImg.jpg" alt=""></div>
+        <span class="span1">全球酷玩试用导购平台酷·新奇·好玩·品质</span>
+        <span class="span2">微信添加“JguoJguo” 获取我们的服务。</span>
+        <table class="tb1">
+            <tr>
+                <td>免费试用</td>
+                <td>友情链接</td>
+                <td>购买攻略</td>
+                <td>厂商合作</td>
+            </tr>
+        </table>
+        <ol class="shiyong">
+            <li>试用流程</li>
+            <li>如何提高成功率</li>
+        </ol>
+        <ol class="lj1">
+            <li>智东西</li>
+            <li>搜狐IT</li>
+            <li>搜狐数码</li>
+            <li>凤凰数码</li>
+            <li>泡泡网</li>
+            <li>zuk社区</li>
+            <li>极客公园</li>
+            <li>果库</li>
+        </ol>
+        <ol class="lj2">
+            <li>WEIBUSHI</li>
+            <li>腾讯科技</li>
+            <li>凤凰科技</li>
+            <li>PConline</li>
+            <li>3W咖啡</li>
+            <li>亿觅emie</li>
+            <li>易迅易启玩</li>
+        </ol>
+        <ol class="gonglue">
+            <li>美亚海淘教程</li>
+            <li>日亚海淘教程</li>
+            <li>海淘转运攻略</li>
+            <li>kickstarter 众筹购买攻略</li>
+            <li>indiegogo 众筹购买攻略</li>
+        </ol>
+        <ol class="hezuo">
+            <li>关于极果</li>
+            <li>联系我们</li>
+            <li>商务合作：BD@jiguo.com</li>
+            <li>CEO邮箱：CEO@jiguo.com</li>
+        </ol>
+        <span class="b_span">@2016 极果版权所有</span>
+    </div>
 </body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./layer/layer.js"></script>
+<script>
+    var tz = false;
+    $('input[name="phone"]').focus(function() {
+        if ($(this).val() == "") {
+            layer.tips('请输入您的手机号', '#num', {
+                tips: [3, 'black'],
+                time: 3000,
+            })
+        }
+    });
+    $('input[name="phone"]').blur(function() {
+        if (/^1[3-9]\d{9}$/.test($(this).val())) {
+            layer.tips('验证通过', '#num', {
+                tips: [3, 'green'],
+                time: 1000,
+
+            })
+            tz = true
+        } else {
+            layer.tips('请输入正确的手机号', '#num', {
+                tips: [3, 'red'],
+                time: 1000,
+            })
+            tz = false;
+        }
+        return tz;
+    });
+
+    //密码
+    $('input[name="pawd"]').focus(function() {
+        if ($(this).val() == "") {
+            layer.tips('请输入密码', '#pass', {
+                tips: [3, 'black'],
+                time: 1000,
+            })
+        }
+
+    });
+    $('input[name="pawd"]').blur(function() {
+        if ($(this).val() == "123456") {
+            // layer.tips('', '#pass', {
+            //     tips: [3, 'green'],
+            //     time: 1000,
+            // })
+            tz = true
+        } else {
+            layer.tips('密码格式有误', '#pass', {
+                tips: [3, 'red'],
+                time: 1000,
+            })
+            tz = false;
+        }
+        return tz;
+    })
+    $("button").click(function() {
+        if (tz == true) {
+            location = "./index.html";
+        } else if (tz == false) {
+            alert("请输入正确的手机号或密码")
+        }
+    });
+</script>
 
 </html>

@@ -240,6 +240,29 @@ h1 {
   color: #aaa;
 }
 /*  */
+#l_daogou_load {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 400px;
+  cursor: pointer;
+}
+#l_daogou_load > div:first-of-type {
+  display: block;
+}
+#l_daogou_load span {
+  color: red;
+}
+#l_daogou_load .y-loding {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-left: 94px;
+  margin-top: 0px;
+  display: none;
+}
+/*  */
 #y-foot {
   position: relative;
   width: 100%;

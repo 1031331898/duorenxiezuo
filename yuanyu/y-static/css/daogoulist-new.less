@@ -132,9 +132,9 @@ a{
     #l_daogou_content{
         position: relative;
         width: @width;
-        height: 1000px;
+        // height: 1000px;
         background-color: #F7F7F7;
-        .border(red);
+        // .border(red);
         // #l_found_new{
         //     float: left;
         // }
@@ -143,30 +143,16 @@ a{
         // } }
         #l_daogou_new{
             margin-top: -10px;
-            width: @width;
-            height: 1024px;
-            //.border(blue);
-            ul{
-                position: relative;
-                width: @width;
-                height: 235px;
-                margin-top: 10px;
-                
-                li{
-                    position: absolute;
-                    left: 14%;
-                    top: 0;
-                    width: 80%;
-                    height: 235px;
-                    text-align: center;
+            width: 1000px;
+            margin: 20px auto;
                     div{
                         position: relative;
+                        border: 1px solid #ccc ;
+                        border-radius:10px ;
                         float: left;
-                        margin: 0 10px;
+                        margin:20px 10px 20px;
                         width: 224px;
-                        height: 215px;
-                        background-color: white;
-                        border-radius: 5px;
+                        height: 235px;
                         img:first-of-type{
                             width: 222px;
                             height: 133px;
@@ -176,14 +162,23 @@ a{
                             text-align: left;
                             margin-left: 10px;
                         }
-                        span:nth-of-type(1){
+                        p:nth-of-type(2){
+                            color: #ccc;
+                        }
+                        span:first-of-type{
+                         position: absolute;
+                         top: 200px;
+                         left: 196px;   
+                         color: #ccc;
+                        }
+                        span:nth-of-type(2){
                             color: #ccc;
                             font-size: 10px;
                             position: absolute;
                             bottom: 18px;
                             right: 37px;
                         }
-                        span:nth-of-type(2){
+                        span:nth-of-type(3){
                             color: #ccc;
                             font-size: 10px;
                             position: absolute;
@@ -202,27 +197,37 @@ a{
                         }
                         img:nth-of-type(4){
                             position: absolute;
-                            bottom: -10px;
-                            right: 0px;
-                            width: 225px;
+                            bottom: -11px;
+                            right: 1px;
                         }
-                    }
-                }
+               
             }
         }
       
 
     }
     #l_daogou_load{
-        width: @width;
-        height: 90px;
+        width: 200px;
+        height: 30px;
         text-align: center;
         margin-top: 30px;
-        //.border(blue);
+        margin-left: 555px;
+        cursor: pointer;
+        // .border(blue);
+        >div:first-of-type{
+            display: block;
+        }
         span{
             color: red;
         }
-       
+        .y-loding{
+            width: 30px;
+            height: 10px;
+            text-align: center;
+            margin-left: 94px;
+            margin-top: 0px;
+            display: none;
+        }
     }
     #y-foot {
         position: relative;
