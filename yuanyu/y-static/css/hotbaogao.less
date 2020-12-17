@@ -7,6 +7,10 @@
 ul,ol,dl{
     list-style: none;
 }
+.active{
+    border-bottom:2px solid orangered ;
+    color:orangered ; 
+}
 @color:rgba(148,150,145);
 #y-head{
     position: relative;
@@ -34,6 +38,9 @@ ul,ol,dl{
             width: 90px;
             height: 20px;
             cursor: pointer;
+        }
+        td:nth-of-type(5){
+            color: orangered;
         }
         td:hover{
             color: orangered;
@@ -79,10 +86,10 @@ ul,ol,dl{
     h1{
         margin:30px 0 30px 625px;
     }
-    .active{
-        border-bottom: 2px solid red;
-        color: red;
-    }
+    // .active{
+    //     border-bottom: 2px solid red;
+    //     color: red;
+    // }
     .y-b-table{
         margin-left: 510px;
         cursor: pointer;
@@ -285,7 +292,12 @@ ul,ol,dl{
         left: 540px;
         color: @color;
         font-size: 14px;
-        cursor: pointer;
+        li{
+            cursor: pointer;
+        }
+        li:hover{
+            color: red;
+        }
     }
     .lj1{
         position: absolute;
@@ -314,6 +326,12 @@ ul,ol,dl{
         left: 1055px;
         color: @color;
         font-size: 14px;
+        li:first-of-type{
+            cursor: pointer;
+        }
+        li:first-of-type:hover{
+            color: red;
+        }
     }
     .b_span{
         position: absolute;

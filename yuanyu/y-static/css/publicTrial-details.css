@@ -572,6 +572,12 @@ a {
   color: rgba(148, 150, 145);
   font-size: 14px;
 }
+#l_public_max #y-foot .shiyong li {
+  cursor: pointer;
+}
+#l_public_max #y-foot .shiyong li:hover {
+  color: red;
+}
 #l_public_max #y-foot .lj1 {
   position: absolute;
   top: 90px;
@@ -599,6 +605,12 @@ a {
   left: 1055px;
   color: rgba(148, 150, 145);
   font-size: 14px;
+}
+#l_public_max #y-foot .hezuo li:first-of-type {
+  cursor: pointer;
+}
+#l_public_max #y-foot .hezuo li:first-of-type:hover {
+  color: red;
 }
 #l_public_max #y-foot .b_span {
   position: absolute;

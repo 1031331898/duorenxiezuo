@@ -33,6 +33,9 @@ ul,ol,dl{
             height: 20px;
             cursor: pointer;
         }
+        td:nth-of-type(4){
+            color: orangered;
+        }
         td:hover{
             color: orangered;
         }
@@ -214,7 +217,12 @@ ul,ol,dl{
         left: 540px;
         color: @color;
         font-size: 14px;
-        cursor: pointer;
+        li{
+            cursor: pointer;
+        }
+        li:hover{
+            color: red;
+        }
     }
     .lj1{
         position: absolute;
@@ -243,6 +251,12 @@ ul,ol,dl{
         left: 1055px;
         color: @color;
         font-size: 14px;
+        li:first-of-type{
+            cursor: pointer;
+        }
+        li:first-of-type:hover{
+            color: red;
+        }
     }
     .b_span{
         position: absolute;

@@ -36,6 +36,9 @@ dl {
   height: 20px;
   cursor: pointer;
 }
+#y-head .h-tb1 td:nth-of-type(4) {
+  color: orangered;
+}
 #y-head .h-tb1 td:hover {
   color: orangered;
 }
@@ -212,7 +215,12 @@ dl {
   left: 540px;
   color: rgba(148, 150, 145);
   font-size: 14px;
+}
+#y-foot .shiyong li {
   cursor: pointer;
+}
+#y-foot .shiyong li:hover {
+  color: red;
 }
 #y-foot .lj1 {
   position: absolute;
@@ -241,6 +249,12 @@ dl {
   left: 1055px;
   color: rgba(148, 150, 145);
   font-size: 14px;
+}
+#y-foot .hezuo li:first-of-type {
+  cursor: pointer;
+}
+#y-foot .hezuo li:first-of-type:hover {
+  color: red;
 }
 #y-foot .b_span {
   position: absolute;

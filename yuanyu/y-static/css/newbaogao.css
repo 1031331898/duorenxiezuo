@@ -37,6 +37,9 @@ dl {
   height: 20px;
   cursor: pointer;
 }
+#y-head .h-tb1 td:nth-of-type(5) {
+  color: orangered;
+}
 #y-head .h-tb1 td:hover {
   color: orangered;
 }
@@ -76,12 +79,12 @@ dl {
   color: orangered ;
 }
 /*  */
+.active {
+  border-bottom: 2px solid orangered ;
+  color: orangered ;
+}
 h1 {
   margin: 30px 0 30px 625px;
-}
-.active {
-  border-bottom: 2px solid red;
-  color: red;
 }
 .y-b-table {
   margin-left: 510px;
@@ -289,7 +292,12 @@ h1 {
   left: 540px;
   color: rgba(148, 150, 145);
   font-size: 14px;
+}
+#y-foot .shiyong li {
   cursor: pointer;
+}
+#y-foot .shiyong li:hover {
+  color: red;
 }
 #y-foot .lj1 {
   position: absolute;
@@ -318,6 +326,12 @@ h1 {
   left: 1055px;
   color: rgba(148, 150, 145);
   font-size: 14px;
+}
+#y-foot .hezuo li:first-of-type {
+  cursor: pointer;
+}
+#y-foot .hezuo li:first-of-type:hover {
+  color: red;
 }
 #y-foot .b_span {
   position: absolute;

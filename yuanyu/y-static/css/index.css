@@ -11,6 +11,20 @@ a {
   text-decoration: none;
   color: red;
 }
+img:hover {
+  animation: donghua 2s infinite linear;
+}
+@keyframes donghua {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .to-top {
   position: fixed;
   top: 500px;
@@ -51,6 +65,9 @@ a {
   width: 90px;
   height: 20px;
   cursor: pointer;
+}
+#y-head .h-tb1 td:nth-of-type(1) {
+  color: orangered;
 }
 #y-head .h-tb1 td:hover {
   color: orangered;
@@ -154,6 +171,7 @@ a {
   line-height: 50px ;
   text-align: center;
   border-radius: 5px ;
+  cursor: pointer;
 }
 #body-shiyong {
   position: relative;
@@ -247,6 +265,9 @@ a {
   background: red;
   border-radius: 0 5px 0 10px;
 }
+.jx-imgshadow:hover {
+  box-shadow: gray 10px 10px 10px 5px;
+}
 #body-jingxuan {
   position: relative;
   width: 100%;
@@ -296,6 +317,7 @@ a {
 #body-jingxuan .jx-img li div:nth-of-type(2) {
   width: 220px;
   height: 30px;
+  margin-left: 10px;
 }
 #body-jingxuan .jx-img li div:nth-of-type(3) {
   position: absolute;
@@ -380,6 +402,11 @@ a {
   height: 130px;
   border-radius: 5px 5px 0 0;
 }
+#body-daogou li div:nth-child(2) {
+  margin-left: 10px;
+  width: 220px;
+  height: 42px;
+}
 #body-daogou li div:nth-child(3) {
   position: absolute;
   right: 10px;
@@ -387,10 +414,23 @@ a {
   width: 60px;
   height: 20px;
 }
+#body-daogou li div:nth-child(3) img:first-of-type,
+#body-daogou li div:nth-child(3) img:nth-of-type(2) {
+  position: absolute;
+  top: 5px;
+  left: -15px;
+}
+#body-daogou li div:nth-child(3) img:nth-of-type(2) {
+  display: none;
+}
 #body-daogou li div:nth-child(4) {
   position: absolute;
   left: 10px;
   top: 220px;
+}
+#body-daogou li div:nth-child(4) img {
+  width: 240px;
+  margin-left: -9px;
 }
 #body-daogou li:first-of-type {
   margin-left: 0;
@@ -444,6 +484,7 @@ a {
   border-radius: 5px 5px 0 0;
 }
 #find-kw .kuwan-img li div:nth-of-type(2) {
+  margin-left: 10px;
   width: 220px;
   height: 30px;
 }
@@ -551,6 +592,12 @@ a {
   color: rgba(148, 150, 145);
   font-size: 14px;
 }
+#y-foot .shiyong li {
+  cursor: pointer;
+}
+#y-foot .shiyong li:hover {
+  color: red;
+}
 #y-foot .lj1 {
   position: absolute;
   top: 90px;
@@ -578,6 +625,12 @@ a {
   left: 1055px;
   color: rgba(148, 150, 145);
   font-size: 14px;
+}
+#y-foot .hezuo li:first-of-type {
+  cursor: pointer;
+}
+#y-foot .hezuo li:first-of-type:hover {
+  color: red;
 }
 #y-foot .b_span {
   position: absolute;
