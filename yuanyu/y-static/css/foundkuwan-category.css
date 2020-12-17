@@ -21,7 +21,6 @@ a {
 #l_found_max {
   width: 100%;
   height: 3500px;
-  border: 1px solid purple;
 }
 #l_found_max #y-head {
   position: relative;
@@ -132,12 +131,10 @@ a {
   width: 100%;
   height: 2890px;
   background-color: #F7F7F7;
-  border: 1px solid red;
 }
 #l_found_max #l_found_content #l_found_category {
   width: 100%;
   height: 2890px;
-  border: 1px solid pink;
 }
 #l_found_max #l_found_content #l_found_category .l_found_live {
   position: relative;

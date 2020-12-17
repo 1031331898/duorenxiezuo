@@ -13,7 +13,6 @@ a {
 #l_daogou_max {
   width: 100%;
   height: 5266px;
-  border: 1px solid purple;
 }
 #l_daogou_max #y-head {
   position: relative;
@@ -89,7 +88,6 @@ a {
   width: 100%;
   height: 4792px;
   background-color: #F7F7F7;
-  border: 1px solid green;
 }
 #l_daogou_max #l_daogou_content .l_daogou_nav {
   color: #ccc;
