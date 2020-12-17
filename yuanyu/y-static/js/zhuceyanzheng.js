@@ -147,7 +147,7 @@ $(".hqyzm").click(function() {
 //注册按钮
 $(".ljzc").click(function() {
     if (tz == true) {
-        // location = "login.html";
+        location = "./login2.html";
     } else if (tz == false) {
         alert("格式错误")
     }

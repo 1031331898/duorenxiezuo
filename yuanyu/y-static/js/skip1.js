@@ -39,10 +39,11 @@ $(".hezuo li").eq(0).on("click",function(){
 $(".shiyong li").eq(0).on("click",function(){
     location="./shiyong/publicTrial-details.html";
 })
-//点击跳转
+//点击跳转免费试用页面
 $(".shiyong li").eq(1).on("click",function(){
     location="./shiyong/freeshiyong.html";
 })
+
 
 
 
